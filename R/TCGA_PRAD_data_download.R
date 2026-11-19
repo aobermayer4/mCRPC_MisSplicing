@@ -67,3 +67,6 @@ prad_jxn_AR_overlap <- IRanges::subsetByOverlaps(
   AR_GRanges
 )
 prad_jxn_AR <- prad_jxn[names(prad_jxn_AR_overlap), ]
+
+# next steps
+## query some known aberrant junctions, ARv7, ARv9, composite 5, and possibly other top adverse associated AR junctions from PROMOTE query
